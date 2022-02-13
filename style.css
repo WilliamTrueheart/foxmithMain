@@ -64,6 +64,7 @@ body {
 #puzzleWrapper2, #puzzleWrapper3 {
     width:350px;height:340px;
     display: flex;
+    position: relative;
     justify-content: center; align-items: center;
     flex-wrap: wrap;
     gap:10px;
@@ -192,11 +193,11 @@ body {
     transform: rotate(45deg);
 }
 #returnToPuzzle2 {
-    position: absolute;
     display:none;
+    position: absolute;
     color:rgb(255, 255, 255);
     width:25px; height:25px;
-    margin-left:318px; margin-bottom: 300px;
+    right:7px; top:11px;
     font-size:20px;
     border-radius: 50px;
     background-color: rgb(240, 38, 38);
@@ -216,7 +217,8 @@ body {
     align-items: center; justify-content: center;
     transform: rotate(45deg);
 }
-#returnToLetterBoard:hover, #returnToPuzzle1:hover, #returnToPuzzle1B:hover {
+#returnToLetterBoard:hover, #returnToPuzzle1:hover, #returnToPuzzle1B:hover,
+ #returnToPuzzle2:hover {
     cursor:crosshair;
     background-color: rgb(182, 17, 17);
 }
