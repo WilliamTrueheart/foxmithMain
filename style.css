@@ -1,0 +1,229 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin:0; padding:0;
+    cursor:crosshair;
+}
+
+#headerPage {
+    width:100vw; height:390px;
+    background: rgb(10,52,80);
+    background: linear-gradient(0deg, rgba(10,52,80,1) 0%, rgba(9,46,71,1) 50%, rgba(7,39,61,1) 100%);
+    display:flex;
+    align-items: center; justify-content: center;
+}
+
+#headerPageMission {
+    color:rgba(255, 255, 255, 0.678);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    margin-top:-140px;
+}
+
+#clouds {
+    background-image: url("clouds.PNG");
+    width:100%; height:500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:-250px;
+}
+#gapSpace {
+    width:100%; height:100px;
+
+}
+
+#foxmithLogo {
+    width:200px; height: 70px;
+    position: absolute;
+    top:20px;
+}
+
+#puzzlePage {
+    background-color: rgb(255, 255, 255);
+    width:100vw; height:600px;
+    margin-top:-250px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    gap:6%;
+}
+
+#puzzleWrapper1 {
+    width:350px;height:340px;
+    display: flex;
+    position: relative;
+    justify-content: center; align-items: center;
+    flex-wrap: wrap;
+    gap:10px;
+}
+#puzzleWrapper2 {
+    width:350px;height:340px;
+    display: flex;
+    justify-content: center; align-items: center;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+#voylesPuzzleTile {
+    width:350px; height:170px;
+    background-image: url("voylesPuzzle.PNG");
+    background-size: cover;
+    justify-content: center; align-items: center;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#fishermansTaleTile {
+    width:350px; height:170px;
+    background-image: url("comingSoon.PNG");
+    background-size: cover;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.brainBenderTile {
+    width:170px; height:170px;
+    background-image: url("brainBenders1.PNG");
+    background-size: cover;
+    border-radius: 12px;
+    cursor: pointer;
+}
+#brainBenders1Tile {
+    background-image: url("brainBenders1.PNG");
+}
+#brainBenders2Tile {
+    background-image: url("brainBenders2.PNG");
+}
+#brainBenders3Tile {
+    background-image: url("brainBenders3.PNG");
+}
+#brainBenders4Tile {
+    background-image: url("brainBenders4.PNG");
+}
+
+.voylesPuzzleImages {
+    width: 97%;
+}
+
+#voylesPuzzleUI {
+    display:none;
+    position: relative;
+    width:350px; height:350px;
+    background-color: black;
+    justify-content: center; align-items: center;
+    padding: 30px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    gap:4px;
+    border-radius: 12px;
+}
+#brainBenders1UI, #brainBenders2UI, #brainBenders3UI, #brainBenders4UI {
+    display:none;
+    position: relative;
+    width:350px; height:350px;
+    background-color: rgb(32, 32, 32);
+    justify-content: center; align-items: center;
+    top:-180px;
+    box-sizing: border-box;
+    padding: 20px;
+    gap:4px;
+    flex-wrap: wrap;
+    border-radius: 12px;
+}
+#brainBenders2UI {right:180px;}
+#brainBenders4UI {right:180px;}
+
+.brainBenderImages {
+    width:98px; height:98px;
+}
+.brainBenderImages:hover {
+    transform: scale(1.5);
+}
+
+.tiles {
+    width:50px; height:46px;
+    background-color: aliceblue;
+    display:flex;
+    color:rgb(226, 255, 255);
+    justify-content: center; align-items: center; 
+    background: rgb(255,255,255);
+    background: linear-gradient(270deg, rgb(133, 133, 133) 0%, rgb(99, 99, 99) 100%);
+    box-sizing: border-box;
+    border:grey 3px outset;
+    border-radius: 6px;
+}
+.tiles:hover {
+    transform:scale(1.1);
+    cursor: grab;
+    background: rgb(226,225,225);
+    background: linear-gradient(270deg, rgb(149, 176, 189) 0%, rgb(92, 109, 114) 100%);
+}
+#tileSecret:hover {
+    transform:scale(1.03);
+    background: rgb(226,225,225);
+    background: linear-gradient(270deg, rgb(149, 176, 189) 0%, rgb(92, 109, 114) 100%);
+}
+
+#tileSecret {
+    width:212px; height:46px;
+    background-color: aliceblue;
+    display:flex; box-sizing: border-box;
+    justify-content: center; align-items: center; 
+}
+
+#returnToPuzzle1, #returnToPuzzle1B {
+    position: absolute;
+    display:none;
+    color:rgb(255, 255, 255);
+    right:7px; top:11px;
+    width:25px; height:25px;
+    font-size:20px;
+    border-radius: 50px;
+    background-color: rgb(240, 38, 38);
+    align-items: center; justify-content: center;
+    transform: rotate(45deg);
+}
+#returnToPuzzle2 {
+    position: absolute;
+    display:none;
+    color:rgb(255, 255, 255);
+    width:25px; height:25px;
+    margin-left:318px; margin-bottom: 300px;
+    font-size:20px;
+    border-radius: 50px;
+    background-color: rgb(240, 38, 38);
+    align-items: center; justify-content: center;
+    transform: rotate(45deg);
+}
+
+#returnToLetterBoard {
+    position: absolute;
+    display:none;
+    color:rgb(255, 255, 255);
+    right:7px; top:11px;
+    width:25px; height:25px;
+    font-size:20px;
+    border-radius: 50px;
+    background-color: rgb(240, 38, 38);
+    align-items: center; justify-content: center;
+    transform: rotate(45deg);
+}
+#returnToLetterBoard:hover, #returnToPuzzle1:hover, #returnToPuzzle1B:hover {
+    cursor:crosshair;
+    background-color: rgb(182, 17, 17);
+}
+
+.voylesPuzzleDisplays {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    display:none;
+    align-items: center; justify-content: center;
+    width:340px; height:334px;
+    box-sizing: border-box;
+    top:9px;
+    border-radius: 12px;
+}
+
+#voylesPuzzleDisplayNImage {width:80%; height:80%;}
+#voylesPuzzleDisplayOImage {width:80%;}
+#voylesPuzzleDisplayQImage {width:70%; height:70%;}

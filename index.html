@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foxmith Puzzles</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="headerPage">
+        <img id="foxmithLogo" src="foxmithLogo.PNG" alt="">
+        <h2 id="headerPageMission">OUR MISSION IS STRONG MINDS</h2>
+    </div>
+    <div id="clouds"></div>
+    <div id="gapSpace"></div>
+    <div id="puzzlePage">
+        <div id="puzzleWrapper1">
+            <div onclick="growVoylesPuzzle()" id="voylesPuzzleTile">
+                <div id="voylesPuzzleUI">
+                    <div onclick="growDisplayA()" id="tileA" class="tiles">A</div>
+                    <div onclick="growDisplayB()" id="tileB" class="tiles">B</div>
+                    <div onclick="growDisplayC()" id="tileC" class="tiles">C</div>
+                    <div onclick="growDisplayD()" id="tileD" class="tiles">D</div>
+                    <div onclick="growDisplayE()" id="tileE" class="tiles">E</div>
+                    <div onclick="growDisplayF()" id="tileF" class="tiles">F</div>
+                    <div onclick="growDisplayG()" id="tileG" class="tiles">G</div>
+                    <div onclick="growDisplayH()" id="tileH" class="tiles">H</div>
+                    <div onclick="growDisplayI()" id="tileI" class="tiles">I</div>
+                    <div onclick="growDisplayJ()" id="tileJ" class="tiles">J</div>
+                    <div onclick="growDisplayK()" id="tileK" class="tiles">K</div>
+                    <div onclick="growDisplayL()" id="tileL" class="tiles">L</div>
+                    <div onclick="growDisplayM()" id="tileM" class="tiles">M</div>
+                    <div onclick="growDisplayN()" id="tileN" class="tiles">N</div>
+                    <div onclick="growDisplayO()" id="tileO" class="tiles">O</div>
+                    <div onclick="growDisplayP()" id="tileP" class="tiles">P</div>
+                    <div onclick="growDisplayQ()" id="tileQ" class="tiles">Q</div>
+                    <div onclick="growDisplayR()" id="tileR" class="tiles">R</div>
+                    <div onclick="growDisplayS()" id="tileS" class="tiles">S</div>
+                    <div onclick="growDisplayT()" id="tileT" class="tiles">T</div>
+                    <div onclick="growDisplayU()" id="tileU" class="tiles">U</div>
+                    <div onclick="growDisplayV()" id="tileV" class="tiles">V</div>
+                    <div onclick="growDisplayW()" id="tileW" class="tiles">W</div>
+                    <div onclick="growDisplayX()" id="tileX" class="tiles">X</div>
+                    <div onclick="growDisplayY()" id="tileY" class="tiles">Y</div>
+                    <div onclick="growDisplayZ()" id="tileZ" class="tiles">Z</div>
+                    <div onclick="growDisplaySecretMessage()" id="tileSecret" class="tiles">Secret Message</div>
+                </div>
+            </div>
+            <div onclick="growBrainBenders1()" id="brainBenders1Tile" class="brainBenderTile">
+                <div id="brainBenders1UI">
+                    <img class="brainBenderImages" src="bb1.PNG" alt="">
+                    <img class="brainBenderImages" src="bb2.PNG" alt="">
+                    <img class="brainBenderImages" src="bb3.PNG" alt="">
+                    <img class="brainBenderImages" src="bb4.PNG" alt="">
+                    <img class="brainBenderImages" src="bb5.PNG" alt="">
+                    <img class="brainBenderImages" src="bb6.PNG" alt="">
+                    <img class="brainBenderImages" src="bb7.PNG" alt="">
+                    <img class="brainBenderImages" src="bb8.PNG" alt="">
+                    <img class="brainBenderImages" src="bb9.PNG" alt="">
+                </div>
+            </div>
+            <div onclick="growBrainBenders2()" id="brainBenders2Tile" class="brainBenderTile">
+                <div id="brainBenders2UI">
+                    <img class="brainBenderImages" src="bb10.PNG" alt="">
+                    <img class="brainBenderImages" src="bb11.PNG" alt="">
+                    <img class="brainBenderImages" src="bb12.PNG" alt="">
+                    <img class="brainBenderImages" src="bb13.PNG" alt="">
+                    <img class="brainBenderImages" src="bb14.PNG" alt="">
+                    <img class="brainBenderImages" src="bb15.PNG" alt="">
+                    <img class="brainBenderImages" src="bb16.PNG" alt="">
+                    <img class="brainBenderImages" src="bb17.PNG" alt="">
+                    <img class="brainBenderImages" src="bb18.PNG" alt="">
+                </div>
+            </div>
+
+            <!-- BELOW ARE ALL THE DISPLAYS, and NAV BUTTONS FOR PUZZ ONE and-->
+            <div id="returnToPuzzle1B" onclick="returnToPuzzle1()">+</div>
+            <div id="returnToPuzzle1" onclick="returnToPuzzle1()">+</div>
+                <div class="voylesPuzzleDisplays" id="voylesPuzzleDisplayA"> <img class="voylesPuzzleImages" src="displayA.PNG" alt="puzzle A" width="360px"> </div>
+                <div class="voylesPuzzleDisplays" id="voylesPuzzleDisplayB"> <img class="voylesPuzzleImages" src="displayB.PNG" alt="puzzle B" width="360px"></div>
+                <div class="voylesPuzzleDisplays" id="voylesPuzzleDisplayC"> <img class="voylesPuzzleImages" src="displayC.PNG" alt="puzzle C" width="360px"></div>
+                <div class="voylesPuzzleDisplays" id="voylesPuzzleDisplayD"> <img class="voylesPuzzleImages" src="displayD.PNG" alt="puzzle D" width="360px"></div>
+                <div class="voylesPuzzleDisplays" id="voylesPuzzleDisplayE"> <img class="voylesPuzzleImages" src="displayE.PNG" alt="puzzle E" width="360px"></div>
+                <div class="voylesPuzzleDisplays" id="voylesPuzzleDisplayF"> <img class="voylesPuzzleImages" src="displayF.PNG" alt="puzzle F" width="360px"></div>
+                <div class="voylesPuzzleDisplays" id="voylesPuzzleDisplayG"> <img class="voylesPuzzleImages" src="displayG.PNG" alt="puzzle G" width="360px"></div>
+                <div class="voylesPuzzleDisplays" id="voylesPuzzleDisplayH"> <img class="voylesPuzzleImages" src="displayH.PNG" alt="puzzle H" width="360px"></div>
+                <div class="voylesPuzzleDisplays" id="voylesPuzzleDisplayI"> <img class="voylesPuzzleImages" src="displayI.PNG" alt="puzzle I" width="360px"></div>
+                <div class="voylesPuzzleDisplays" id="voylesPuzzleDisplayJ"> <img class="voylesPuzzleImages" src="displayJ.PNG" alt="puzzle J" width="360px"> </div>
+                <div class="voylesPuzzleDisplays" id="voylesPuzzleDisplayK"> <img class="voylesPuzzleImages" src="displayK.PNG" alt="puzzle K" width="360px"></div>
+                <div class="voylesPuzzleDisplays" id="voylesPuzzleDisplayL"> <img class="voylesPuzzleImages" src="displayL.PNG" alt="puzzle L" width="360px"></div>
+                <div class="voylesPuzzleDisplays" id="voylesPuzzleDisplayM"> <img class="voylesPuzzleImages" src="displayM.PNG" alt="puzzle M" width="360px"></div>
+                <div class="voylesPuzzleDisplays" id="voylesPuzzleDisplayN"> <img id="voylesPuzzleDisplayNImage" class="voylesPuzzleImages" src="displayN.PNG" alt="puzzle N" width="360px"></div>
+                <div class="voylesPuzzleDisplays" id="voylesPuzzleDisplayO"> <img id="voylesPuzzleDisplayOImage" class="voylesPuzzleImages" src="displayO.PNG" alt="puzzle O" width="360px"></div>
+                <div class="voylesPuzzleDisplays" id="voylesPuzzleDisplayP"> <img class="voylesPuzzleImages" src="displayP.PNG" alt="puzzle P" width="360px"></div>
+                <div class="voylesPuzzleDisplays" id="voylesPuzzleDisplayQ"> <img id="voylesPuzzleDisplayQImage" class="voylesPuzzleImages" src="displayQ.PNG" alt="puzzle Q" width="360px"></div>
+                <div class="voylesPuzzleDisplays" id="voylesPuzzleDisplayR"> <img class="voylesPuzzleImages" src="displayR.PNG" alt="puzzle R" width="360px"></div>
+                <div class="voylesPuzzleDisplays" id="voylesPuzzleDisplayS"> <img class="voylesPuzzleImages" src="displayS.PNG" alt="puzzle S" width="360px"></div>
+                <div class="voylesPuzzleDisplays" id="voylesPuzzleDisplayT"> <img class="voylesPuzzleImages" src="displayT.PNG" alt="puzzle T" width="360px"></div>
+                <div class="voylesPuzzleDisplays" id="voylesPuzzleDisplayU"> <img class="voylesPuzzleImages" src="displayU.PNG" alt="puzzle U" width="360px"></div>
+                <div class="voylesPuzzleDisplays" id="voylesPuzzleDisplayV"> <img class="voylesPuzzleImages" src="displayV.PNG" alt="puzzle V" width="360px"></div>
+                <div class="voylesPuzzleDisplays" id="voylesPuzzleDisplayW"> </div>
+                <div class="voylesPuzzleDisplays" id="voylesPuzzleDisplayX"> <img class="voylesPuzzleImages" src="displayX.PNG" alt="puzzle X" width="360px"></div>
+                <div class="voylesPuzzleDisplays" id="voylesPuzzleDisplayY"> <img class="voylesPuzzleImages" src="displayY.PNG" alt="puzzle Y" width="360px"></div>
+                <div class="voylesPuzzleDisplays" id="voylesPuzzleDisplayZ"> <img class="voylesPuzzleImages" src="displayZ.PNG" alt="puzzle Z" width="360px"></div>
+                <div class="voylesPuzzleDisplays" id="voylesPuzzleDisplaySecretMessage"> <img class="voylesPuzzleImages" src="displaySecretMessage.PNG" alt="puzzle Secret Message" width="360px"></div>
+                
+            <div id="returnToLetterBoard" onclick="returnToLetterBoard()">+</div>
+        </div>
+        <div id="puzzleWrapper2">
+            <div id="fishermansTaleTile"></div>
+            <div onclick="growBrainBenders3()" id="brainBenders3Tile" class="brainBenderTile">
+                <div id="brainBenders3UI">
+                    <img class="brainBenderImages" src="bb19.PNG" alt="">
+                    <img class="brainBenderImages" src="bb20.PNG" alt="">
+                    <img class="brainBenderImages" src="bb21.PNG" alt="">
+                    <img class="brainBenderImages" src="bb22.PNG" alt="">
+                    <img class="brainBenderImages" src="bb23.PNG" alt="">
+                    <img class="brainBenderImages" src="bb24.PNG" alt="">
+                    <img class="brainBenderImages" src="bb25.PNG" alt="">
+                    <img class="brainBenderImages" src="bb26.PNG" alt="">
+                    <img class="brainBenderImages" src="bb27.PNG" alt="">
+                </div>
+            </div>
+        
+            <div onclick="growBrainBenders4()" id="brainBenders4Tile" class="brainBenderTile">
+                <div id="brainBenders4UI">
+                    <img class="brainBenderImages" src="bb28.PNG" alt="">
+                    <img class="brainBenderImages" src="bb29.PNG" alt="">
+                    <img class="brainBenderImages" src="bb30.PNG" alt="">
+                    <img class="brainBenderImages" src="bb31.PNG" alt="">
+                    <img class="brainBenderImages" src="bb32.PNG" alt="">
+                    <img class="brainBenderImages" src="bb33.PNG" alt="">
+                    <img class="brainBenderImages" src="bb34.PNG" alt="">
+                    <img class="brainBenderImages" src="bb35.PNG" alt="">
+                    <img class="brainBenderImages" src="bb36.PNG" alt="">
+                </div>
+            </div>
+            <div id="returnToPuzzle2" onclick="returnToPuzzle2()">+</div>
+        </div>
+    </div>
+</body>
+<script src="js.js"></script>
+
+</html>
