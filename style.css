@@ -76,13 +76,13 @@ body {
 
 #voylesPuzzleTile, #fishermansTaleTile, #comingSoonTile {
     width:350px; height:170px;
-    background-image: url("voylesPuzzle.PNG");
+    background-image: url("comingSoon.PNG");
     background-size: cover;
     justify-content: center; align-items: center;
     border-radius: 12px;
     cursor: pointer;
 }
-
+#voylesPuzzleTile { background-image: url("voylesPuzzle.PNG");}
 #fishermansTaleTile { background-image: url("comingSoon.PNG");}
 #comingSoonTile { background-image:url("comingSoon2.PNG")}
 
@@ -123,6 +123,7 @@ body {
     position: relative;
     width:350px; height:350px;
     background-color: black;
+    border:3px solid rgb(53, 228, 228);
     justify-content: center; align-items: center;
     padding: 30px;
     box-sizing: border-box;
@@ -143,8 +144,11 @@ body {
     flex-wrap: wrap;
     border-radius: 12px;
 }
-#brainBenders2UI {right:180px;}
-#brainBenders4UI {right:180px;}
+
+#brainBenders1UI {border:3px solid rgb(53, 228, 228);}
+#brainBenders2UI {right:180px;border:3px solid rgb(53, 228, 228);}
+#brainBenders3UI {border:3px solid rgb(243, 213, 42);}
+#brainBenders4UI {right:180px;border:3px solid rgb(243, 213, 42);}
 
 .brainBenderImages {
     width:98px; height:98px;
@@ -223,7 +227,7 @@ body {
 }
 #returnToLetterBoard:hover, #returnToPuzzle1:hover, #returnToPuzzle1B:hover,
  #returnToPuzzle2:hover {
-    cursor:crosshair;
+    cursor:grab;
     background-color: rgb(182, 17, 17);
 }
 
