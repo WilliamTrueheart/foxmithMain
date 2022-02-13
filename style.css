@@ -125,7 +125,7 @@ body {
     background-color: black;
     border:3px solid rgb(53, 228, 228);
     justify-content: center; align-items: center;
-    padding: 30px;
+    padding: 20px;
     box-sizing: border-box;
     flex-wrap: wrap;
     gap:4px;
@@ -236,7 +236,7 @@ body {
     position: absolute;
     display:none;
     align-items: center; justify-content: center;
-    width:340px; height:334px;
+    width:340px; height:333px;
     box-sizing: border-box;
     top:9px;
     border-radius: 12px;
