@@ -9,14 +9,19 @@ body {
     background: rgb(10,52,80);
     background: linear-gradient(0deg, rgba(10,52,80,1) 0%, rgba(9,46,71,1) 50%, rgba(7,39,61,1) 100%);
     display:flex;
+    flex-direction: column;
     align-items: center; justify-content: center;
+}
+
+#headerPageItems {
+    position: absolute;
+    top:60px;
 }
 
 #headerPageMission {
     color:rgba(255, 255, 255, 0.678);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 12px;
-    margin-top:-140px;
 }
 
 #clouds {
@@ -25,16 +30,16 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     margin-top:-250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #gapSpace {
     width:100%; height:100px;
-
 }
 
 #foxmithLogo {
     width:200px; height: 70px;
-    position: absolute;
-    top:20px;
 }
 
 #puzzlePage {
@@ -45,7 +50,7 @@ body {
     flex-wrap: wrap;
     position: relative;
     justify-content: center;
-    gap:6%;
+    gap:5%;
 }
 
 #puzzleWrapper1 {
@@ -56,7 +61,7 @@ body {
     flex-wrap: wrap;
     gap:10px;
 }
-#puzzleWrapper2 {
+#puzzleWrapper2, #puzzleWrapper3 {
     width:350px;height:340px;
     display: flex;
     justify-content: center; align-items: center;
@@ -64,7 +69,7 @@ body {
     gap:10px;
 }
 
-#voylesPuzzleTile {
+#voylesPuzzleTile, #fishermansTaleTile, #comingSoonTile {
     width:350px; height:170px;
     background-image: url("voylesPuzzle.PNG");
     background-size: cover;
@@ -73,13 +78,9 @@ body {
     cursor: pointer;
 }
 
-#fishermansTaleTile {
-    width:350px; height:170px;
-    background-image: url("comingSoon.PNG");
-    background-size: cover;
-    border-radius: 12px;
-    cursor: pointer;
-}
+#fishermansTaleTile { background-image: url("comingSoon.PNG");}
+#comingSoonTile { background-image:url("comingSoon2.PNG")}
+
 
 .brainBenderTile {
     width:170px; height:170px;
@@ -100,6 +101,13 @@ body {
 #brainBenders4Tile {
     background-image: url("brainBenders4.PNG");
 }
+#brainBenders5Tile {
+    background-image: url("brainBenders5.PNG");
+}
+#brainBenders6Tile {
+    background-image: url("brainBenders6.PNG");
+}
+
 
 .voylesPuzzleImages {
     width: 97%;
