@@ -22,6 +22,25 @@ function returnToPuzzle3() {
     document.getElementById("returnToPuzzle3").style.display = "none";
 }
 
+/* These functions are for your puzzle page filter */
+function selectionBarMathPuzzlesCheck() {
+    document.getElementById("filterBarItems-selectionButtonCheckedPuzzles").style.display = "flex";
+    document.getElementById("filterBarItems-selectionButtonUnCheckedPuzzles").style.display = "none";
+}
+function selectionBarMathPuzzlesUnCheck() {
+    document.getElementById("filterBarItems-selectionButtonCheckedPuzzles").style.display = "none";
+    document.getElementById("filterBarItems-selectionButtonUnCheckedPuzzles").style.display = "flex";
+}
+
+function selectionBarBrainBendersCheck() {
+    document.getElementById("filterBarItems-selectionButtonCheckedBrainBenders").style.display = "flex";
+    document.getElementById("filterBarItems-selectionButtonUnCheckedBrainBenders").style.display = "none";
+}
+function selectionBarBrainBendersUnCheck() {
+    document.getElementById("filterBarItems-selectionButtonCheckedBrainBenders").style.display = "none";
+    document.getElementById("filterBarItems-selectionButtonUnCheckedBrainBenders").style.display = "flex";
+}
+
 
 function returnToLetterBoard() {
     document.getElementById("voylesPuzzleDisplayA").style.display = "none";
@@ -200,3 +219,5 @@ function growBrainBenders6() {
     document.getElementById("returnToPuzzle3").style.display = "flex";
     document.getElementById("brainBenders5UI").style.display = "none";
 }
+
+
