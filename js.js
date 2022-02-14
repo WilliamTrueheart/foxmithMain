@@ -16,6 +16,12 @@ function returnToPuzzle2() {
     document.getElementById("brainBenders4UI").style.display = "none";
     document.getElementById("returnToPuzzle2").style.display = "none";
 }
+function returnToPuzzle3() {
+    document.getElementById("brainBenders5UI").style.display = "none";
+    document.getElementById("brainBenders6UI").style.display = "none";
+    document.getElementById("returnToPuzzle3").style.display = "none";
+}
+
 
 function returnToLetterBoard() {
     document.getElementById("voylesPuzzleDisplayA").style.display = "none";
@@ -181,4 +187,16 @@ function growBrainBenders4() {
     document.getElementById("brainBenders4UI").style.display = "flex";
     document.getElementById("returnToPuzzle2").style.display = "flex";
     document.getElementById("brainBenders3UI").style.display = "none";
+}
+
+function growBrainBenders5() {
+    document.getElementById("brainBenders5UI").style.display = "flex";
+    document.getElementById("returnToPuzzle3").style.display = "flex";
+    document.getElementById("brainBenders6UI").style.display = "none";
+}
+
+function growBrainBenders6() {
+    document.getElementById("brainBenders6UI").style.display = "flex";
+    document.getElementById("returnToPuzzle3").style.display = "flex";
+    document.getElementById("brainBenders5UI").style.display = "none";
 }

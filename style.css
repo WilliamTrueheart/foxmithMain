@@ -54,7 +54,7 @@ body {
     flex-wrap: wrap;
     position: relative;
     justify-content: center;
-    gap:5%;
+    gap:4%;
 }
 
 #puzzleWrapper1 {
@@ -131,7 +131,7 @@ body {
     gap:4px;
     border-radius: 12px;
 }
-#brainBenders1UI, #brainBenders2UI, #brainBenders3UI, #brainBenders4UI {
+#brainBenders1UI, #brainBenders2UI, #brainBenders3UI, #brainBenders4UI, #brainBenders5UI, #brainBenders6UI {
     display:none;
     position: relative;
     width:350px; height:350px;
@@ -149,6 +149,8 @@ body {
 #brainBenders2UI {right:180px;border:3px solid rgb(53, 228, 228);}
 #brainBenders3UI {border:3px solid rgb(243, 213, 42);}
 #brainBenders4UI {right:180px;border:3px solid rgb(243, 213, 42);}
+#brainBenders5UI {border:3px solid rgb(206, 28, 182);}
+#brainBenders6UI {right:180px;border:3px solid rgb(206, 28, 182);}
 
 .brainBenderImages {
     width:98px; height:98px;
@@ -200,7 +202,7 @@ body {
     align-items: center; justify-content: center;
     transform: rotate(45deg);
 }
-#returnToPuzzle2 {
+#returnToPuzzle2, #returnToPuzzle3  {
     display:none;
     position: absolute;
     color:rgb(255, 255, 255);
