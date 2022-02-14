@@ -67,13 +67,14 @@ body {
 
 #puzzlePage {
     background-color: rgb(255, 255, 255);
-    width:100vw; height:600px;
+    width:100vw; height:700px;
     margin-top:-250px;
     display: flex;
     flex-wrap: wrap;
     position: relative;
     justify-content: center;
     gap:4%;
+ 
 }
 
 #puzzleWrapper1 {
@@ -257,3 +258,34 @@ body {
 #voylesPuzzleDisplayNImage {width:80%; height:80%;}
 #voylesPuzzleDisplayOImage {width:80%;}
 #voylesPuzzleDisplayQImage {width:70%; height:70%;}
+
+
+#footerPage {
+    width:100%; height:300px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: #0a304a;
+    margin-top:50px;
+}
+
+#contactForm {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    width:280px;
+    display: flex;
+    flex-direction: column;
+    top:70px;
+    background-color: rgb(176, 191, 192);
+    box-sizing: border-box;
+    padding: 0px 0px 20px 0px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    gap:8px;
+}
+
+#subscriberName { width:160px; border-radius: 4px;}
+#subscriberEmail { width:160px; border-radius: 4px;}
+#subscriberHeader {font-size: 14px;}
+#subscriberSubmit {border-radius: 4px; background-color: rgb(252, 50, 50); color:white;}
