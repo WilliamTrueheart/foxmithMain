@@ -3,6 +3,11 @@ function growVoylesPuzzle() {
     document.getElementById("returnToPuzzle1").style.display = "flex";
 }
 
+function growFishermensTale() {
+    document.getElementById("fishermensTaleUI").style.display = "flex";
+    document.getElementById("returnToPuzzle2").style.display = "flex";
+}
+
 function returnToPuzzle1() {
     document.getElementById("voylesPuzzleUI").style.display = "none";
     document.getElementById("brainBenders1UI").style.display = "none";
@@ -12,17 +17,16 @@ function returnToPuzzle1() {
 }
 
 function returnToPuzzle2() {
+    document.getElementById("fishermensTaleUI").style.display = "none";
     document.getElementById("brainBenders3UI").style.display = "none";
     document.getElementById("brainBenders4UI").style.display = "none";
-    document.getElementById("returnToPuzzle2").style.display = "none";
+    document.getElementById("returnToPuzzle2").style.display = "none";    
 }
 function returnToPuzzle3() {
     document.getElementById("brainBenders5UI").style.display = "none";
     document.getElementById("brainBenders6UI").style.display = "none";
     document.getElementById("returnToPuzzle3").style.display = "none";
 }
-
-
 
 
 function returnToLetterBoard() {
@@ -54,6 +58,22 @@ function returnToLetterBoard() {
     document.getElementById("voylesPuzzleDisplayZ").style.display = "none";
     document.getElementById("voylesPuzzleDisplaySecretMessage").style.display = "none";
     document.getElementById("returnToLetterBoard").style.display = "none";
+}
+
+function returnToLetterBoard2() {
+    document.getElementById("fishermensTaleDisplayA").style.display = "none";
+    document.getElementById("fishermensTaleDisplayR").style.display = "none";
+    document.getElementById("fishermensTaleDisplayG").style.display = "none";
+    document.getElementById("fishermensTaleDisplayD").style.display = "none";
+    document.getElementById("fishermensTaleDisplayE").style.display = "none";
+    document.getElementById("fishermensTaleDisplayS").style.display = "none";
+    document.getElementById("fishermensTaleDisplayH").style.display = "none";
+    document.getElementById("fishermensTaleDisplayI").style.display = "none";
+    document.getElementById("fishermensTaleDisplayY").style.display = "none";
+    document.getElementById("fishermensTaleDisplayO").style.display = "none";
+    document.getElementById("fishermensTaleDisplayM").style.display = "none";
+    document.getElementById("fishermensTaleDisplayW").style.display = "none";
+    document.getElementById("returnToLetterBoard2").style.display = "none";
 }
 
 
@@ -163,6 +183,56 @@ function growDisplayZ() {
 function growDisplaySecretMessage() {
     document.getElementById("voylesPuzzleDisplaySecretMessage").style.display = "flex";
     document.getElementById("returnToLetterBoard").style.display = "flex";
+}
+
+
+
+function growDisplayA_FT() {
+    document.getElementById("fishermensTaleDisplayA").style.display = "flex";
+    document.getElementById("returnToLetterBoard2").style.display = "flex";
+}
+function growDisplayR_FT() {
+    document.getElementById("fishermensTaleDisplayR").style.display = "flex";
+    document.getElementById("returnToLetterBoard2").style.display = "flex";
+}
+function growDisplayG_FT() {
+    document.getElementById("fishermensTaleDisplayG").style.display = "flex";
+    document.getElementById("returnToLetterBoard2").style.display = "flex";
+}
+function growDisplayD_FT() {
+    document.getElementById("fishermensTaleDisplayD").style.display = "flex";
+    document.getElementById("returnToLetterBoard2").style.display = "flex";
+}
+function growDisplayE_FT() {
+    document.getElementById("fishermensTaleDisplayE").style.display = "flex";
+    document.getElementById("returnToLetterBoard2").style.display = "flex";
+}
+function growDisplayS_FT() {
+    document.getElementById("fishermensTaleDisplayS").style.display = "flex";
+    document.getElementById("returnToLetterBoard2").style.display = "flex";
+}
+function growDisplayH_FT() {
+    document.getElementById("fishermensTaleDisplayH").style.display = "flex";
+    document.getElementById("returnToLetterBoard2").style.display = "flex";
+}
+function growDisplayI_FT() {
+    document.getElementById("fishermensTaleDisplayI").style.display = "flex";
+    document.getElementById("returnToLetterBoard2").style.display = "flex";
+}
+function growDisplayY_FT() {
+    document.getElementById("fishermensTaleDisplayY").style.display = "flex";
+    document.getElementById("returnToLetterBoard2").style.display = "flex";
+}
+function growDisplayO_FT() {
+    document.getElementById("fishermensTaleDisplayO").style.display = "flex";
+    document.getElementById("returnToLetterBoard2").style.display = "flex";
+}
+function growDisplayM_FT() {
+    document.getElementById("fishermensTaleDisplayM").style.display = "flex";
+    document.getElementById("returnToLetterBoard2").style.display = "flex";
+}function growDisplayW_FT() {
+    document.getElementById("fishermensTaleDisplayW").style.display = "flex";
+    document.getElementById("returnToLetterBoard2").style.display = "flex";
 }
 
 

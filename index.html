@@ -77,6 +77,7 @@
             </div>
 
             <!-- BELOW ARE ALL THE DISPLAYS, and NAV BUTTONS FOR PUZZ ONE and-->
+          
             <div id="returnToPuzzle1B" onclick="returnToPuzzle1()">x</div>
             <div id="returnToPuzzle1" onclick="returnToPuzzle1()">x</div>
                 <div class="voylesPuzzleDisplays" id="voylesPuzzleDisplayA"> <img class="voylesPuzzleImages" src="displayA.PNG" alt="puzzle A" width="360px"> </div>
@@ -107,10 +108,32 @@
                 <div class="voylesPuzzleDisplays" id="voylesPuzzleDisplayZ"> <img class="voylesPuzzleImages" src="displayZ.PNG" alt="puzzle Z" width="360px"></div>
                 <div class="voylesPuzzleDisplays" id="voylesPuzzleDisplaySecretMessage"> <img class="voylesPuzzleImages" src="displaySecretMessage.PNG" alt="puzzle Secret Message" width="360px"></div>
                 
-            <div id="returnToLetterBoard" onclick="returnToLetterBoard()">+</div>
+                <div id="returnToLetterBoard" onclick="returnToLetterBoard()">+</div>
         </div>
+
+<!-- BELOW LIES PUZZLE 2 WRAPPER-->
+
         <div id="puzzleWrapper2">
-            <div id="fishermansTaleTile"></div>
+            <div onclick="growFishermensTale()" id="fishermensTaleTile">
+                <div id="fishermensTaleUI">
+                    <div onclick="growDisplayA_FT()" id="tileA_FT" class="tiles_FT">A</div>
+                    <div onclick="growDisplayD_FT()" id="tileD_FT" class="tiles_FT">D</div>
+                    <div onclick="growDisplayE_FT()" id="tileE_FT" class="tiles_FT">E</div>
+                    <div onclick="growDisplayG_FT()" id="tileG_FT" class="tiles_FT">G</div>
+                    <div onclick="growDisplayH_FT()" id="tileH_FT" class="tiles_FT">H</div>
+                    <div onclick="growDisplayI_FT()" id="tileI_FT" class="tiles_FT">I</div>
+                    <div onclick="growDisplayL_FT()" id="tileL_FT" class="tiles_FT">L</div>
+                    <div onclick="growDisplayM_FT()" id="tileM_FT" class="tiles_FT">M</div>
+                    <div onclick="growDisplayO_FT()" id="tileO_FT" class="tiles_FT">O</div>
+                    <div onclick="growDisplayR_FT()" id="tileR_FT" class="tiles_FT">R</div>
+                    <div onclick="growDisplayS_FT()" id="tileS_FT" class="tiles_FT">S</div>
+                    <div onclick="growDisplayT_FT()" id="tileT_FT" class="tiles_FT">T</div>
+                    <div onclick="growDisplayW_FT()" id="tileW_FT" class="tiles_FT">W</div>
+                    <div onclick="growDisplayY_FT()" id="tileY_FT" class="tiles_FT">Y</div>
+                    <div onclick="growDisplayZ_FT()" id="tileZ_FT" class="tiles_FT">Z</div>
+                    <div onclick="growDisplaySecretMessage_FT()" id="tileSecretMessage_FT" class="tiles_FT">Secret Message</div>
+                </div>
+            </div>    
             <div onclick="growBrainBenders3()" id="brainBenders3Tile" class="brainBenderTile">
                 <div id="brainBenders3UI">
                     <img class="brainBenderImages" src="bb19.PNG" alt="">
@@ -138,9 +161,28 @@
                     <img class="brainBenderImages" src="bb36.PNG" alt="">
                 </div>
             </div>
+<!-- BELOW ARE THE RETURN BUTTONS AND PUZZLE DISPLAYS FOR PUZZLE 2-->
+
             <div id="returnToPuzzle2" onclick="returnToPuzzle2()">x</div>
+            <div class="fishermensTaleDisplays" id="fishermensTaleDisplayA"> <img class="fishermensTaleImages" src="displayA_FT.PNG" alt="puzzle A" width="360px"> </div>
+            <div class="fishermensTaleDisplays" id="fishermensTaleDisplayR"> <img class="fishermensTaleImages" src="displayR_FT.PNG" alt="puzzle A" width="360px"> </div>
+            <div class="fishermensTaleDisplays" id="fishermensTaleDisplayG"> <img class="fishermensTaleImages" src="displayG_FT.PNG" alt="puzzle A" width="360px"> </div>
+            <div class="fishermensTaleDisplays" id="fishermensTaleDisplayD"> <img class="fishermensTaleImages" src="displayD_FT.PNG" alt="puzzle A" width="360px"> </div>
+            <div class="fishermensTaleDisplays" id="fishermensTaleDisplayE"> <img class="fishermensTaleImages" src="displayE_FT.PNG" alt="puzzle A" width="360px"> </div>
+            <div class="fishermensTaleDisplays" id="fishermensTaleDisplayS"> <img class="fishermensTaleImages" src="displayS_FT.PNG" alt="puzzle A" width="360px"> </div>
+            <div class="fishermensTaleDisplays" id="fishermensTaleDisplayH"> <img class="fishermensTaleImages" src="displayH_FT.PNG" alt="puzzle A" width="360px"> </div>
+            <div class="fishermensTaleDisplays" id="fishermensTaleDisplayI"> <img class="fishermensTaleImages" src="displayI_FT.PNG" alt="puzzle A" width="360px"> </div>
+            <div class="fishermensTaleDisplays" id="fishermensTaleDisplayY"> <img class="fishermensTaleImages" src="displayY_FT.PNG" alt="puzzle A" width="360px"> </div>
+            <div class="fishermensTaleDisplays" id="fishermensTaleDisplayO"> <img class="fishermensTaleImages" src="displayO_FT.PNG" alt="puzzle A" width="360px"> </div>
+            <div class="fishermensTaleDisplays" id="fishermensTaleDisplayM"> <img class="fishermensTaleImages" src="displayM_FT.PNG" alt="puzzle A" width="360px"> </div>
+            <div class="fishermensTaleDisplays" id="fishermensTaleDisplayW"> <img class="fishermensTaleImages" src="displayW_FT.PNG" alt="puzzle A" width="360px"> </div>
+
+            <div id="returnToLetterBoard2" onclick="returnToLetterBoard2()">+</div>
         </div>
+
+
 <!-- HERE LIES PUZZLE WRAPPER 3-->
+
         <div id="puzzleWrapper3">
             <div id="comingSoonTile"></div>
             <div onclick="growBrainBenders5()" id="brainBenders5Tile" class="brainBenderTile">
@@ -172,7 +214,7 @@
             <div id="returnToPuzzle3" onclick="returnToPuzzle3()">x</div>
         </div>
 
-        <div id="footerPage">
+        <div id="dailyPuzzlePage">
           
            </form>
         </div>
