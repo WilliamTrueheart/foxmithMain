@@ -276,7 +276,7 @@ body {
     display:none;
     align-items: center; justify-content: center;
     width:340px; height:340px;
-    margin-top:7px;
+    margin-top:0px;
     box-sizing: border-box;
     border-radius: 8px;
 }
