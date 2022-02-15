@@ -266,7 +266,7 @@ body {
     align-items: center; justify-content: center;
     width:340px; height:340px;
     box-sizing: border-box;
-    margin-top:8px;
+    margin-top:4px;
     border-radius: 8px;
 }
 
@@ -276,7 +276,7 @@ body {
     display:none;
     align-items: center; justify-content: center;
     width:340px; height:340px;
-    margin-top:8px;
+    margin-top:4px;
     box-sizing: border-box;
     border-radius: 8px;
 }
