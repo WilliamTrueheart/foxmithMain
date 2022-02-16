@@ -11,8 +11,13 @@
 <body>
     <div id="headerPage">
         <div id="pageModeWrapper">
-            <div onclick="enableDarkMode()" id="darkModeSelector">dark</div>
-            <div onclick="enableLightMode()" id="lightModeSelector">light</div>
+            <h1 id="darkModeText">Dark Mode</h1>
+            <div onclick="enableDarkMode()" id="darkModeSelector">
+                <div id="darkModeButtonOff"></div>
+            </div>
+            <div onclick="enableLightMode()" id="lightModeSelector">
+                <div id="darkModeButtonOn"></div>
+            </div>
         </div>     
         <div id="headerPageItems">
             <img id="foxmithLogo" src="foxmithLogo.PNG" alt="">

@@ -279,6 +279,10 @@ function growBrainBenders6() {
 
 
 function enableDarkMode() {
+    document.getElementById("darkModeSelector").style.display = "none";
+    document.getElementById("darkModeButtonOff").style.display = "none";
+    document.getElementById("darkModeButtonOn").style.display = "flex";
+    document.getElementById("lightModeSelector").style.display = "flex";
     document.getElementById("puzzlePage").style.background = "#0E0E0E";
     document.getElementById("gapSpace").style.backgroundColor = "#0E0E0E";
     document.getElementById("headerPage").style.background = "#0E0E0E";
@@ -296,6 +300,10 @@ function enableDarkMode() {
 
 }
 function enableLightMode() {
+    document.getElementById("darkModeSelector").style.display = "flex";
+    document.getElementById("darkModeButtonOff").style.display = "flex";
+    document.getElementById("darkModeButtonOn").style.display = "none";
+    document.getElementById("lightModeSelector").style.display = "none";
     document.getElementById("puzzlePage").style.backgroundColor = "white";
     document.getElementById("gapSpace").style.backgroundColor = "white";
     document.getElementById("headerPage").style.background = "linear-gradient(0deg, rgb(12, 61, 94) 0%, rgba(9,46,71,1) 50%, rgba(7,39,61,1) 100%)";
