@@ -10,12 +10,18 @@
 </head>
 <body>
     <div id="headerPage">
+        <div id="pageModeWrapper">
+            <div onclick="enableDarkMode()" id="darkModeSelector">dark</div>
+            <div onclick="enableLightMode()" id="lightModeSelector">light</div>
+        </div>     
         <div id="headerPageItems">
             <img id="foxmithLogo" src="foxmithLogo.PNG" alt="">
             <h2 id="headerPageMission">OUR MISSION IS STRONG MINDS</h2>
         </div>
     </div>
-   <div id="gapSpace"></div>
+   <div id="gapSpace">
+
+   </div>
     <div id="puzzlePage">
         <div id="puzzleWrapper1">
             <div onclick="growVoylesPuzzle()" id="voylesPuzzleTile">
@@ -108,7 +114,7 @@
                 <div class="voylesPuzzleDisplays" id="voylesPuzzleDisplayZ"> <img class="voylesPuzzleImages" src="displayZ.PNG" alt="puzzle Z" width="360px"></div>
                 <div class="voylesPuzzleDisplays" id="voylesPuzzleDisplaySecretMessage"> <img class="voylesPuzzleImages" src="displaySecretMessage.PNG" alt="puzzle Secret Message" width="360px"></div>
                 
-                <div id="returnToLetterBoard" onclick="returnToLetterBoard()">+</div>
+                <div id="returnToLetterBoard" onclick="returnToLetterBoard()">x</div>
         </div>
 
 <!-- BELOW LIES PUZZLE 2 WRAPPER-->
@@ -177,7 +183,7 @@
             <div class="fishermensTaleDisplays" id="fishermensTaleDisplayM"> <img class="fishermensTaleImages" src="displayM_FT.PNG" alt="puzzle A" width="360px"> </div>
             <div class="fishermensTaleDisplays" id="fishermensTaleDisplayW"> <img class="fishermensTaleImages" src="displayW_FT.PNG" alt="puzzle A" width="360px"> </div>
 
-            <div id="returnToLetterBoard2" onclick="returnToLetterBoard2()">+</div>
+            <div id="returnToLetterBoard2" onclick="returnToLetterBoard2()">x</div>
         </div>
 
 
@@ -214,9 +220,8 @@
             <div id="returnToPuzzle3" onclick="returnToPuzzle3()">x</div>
         </div>
 
-        <div id="dailyPuzzlePage">
-          
-           </form>
+        <div id="footerPage">   
+              
         </div>
     </div>
 </body>

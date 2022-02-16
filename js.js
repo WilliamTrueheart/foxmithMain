@@ -230,11 +230,15 @@ function growDisplayO_FT() {
 function growDisplayM_FT() {
     document.getElementById("fishermensTaleDisplayM").style.display = "flex";
     document.getElementById("returnToLetterBoard2").style.display = "flex";
-}function growDisplayW_FT() {
+}
+function growDisplayW_FT() {
     document.getElementById("fishermensTaleDisplayW").style.display = "flex";
     document.getElementById("returnToLetterBoard2").style.display = "flex";
 }
-
+function growDisplayZ_FT() {
+    document.getElementById("fishermensTaleDisplayZ").style.display = "flex";
+    document.getElementById("returnToLetterBoard2").style.display = "flex";
+}
 
 
 function growBrainBenders1() {
@@ -271,6 +275,40 @@ function growBrainBenders6() {
     document.getElementById("brainBenders6UI").style.display = "flex";
     document.getElementById("returnToPuzzle3").style.display = "flex";
     document.getElementById("brainBenders5UI").style.display = "none";
+}
+
+
+function enableDarkMode() {
+    document.getElementById("puzzlePage").style.background = "#0E0E0E";
+    document.getElementById("gapSpace").style.backgroundColor = "#0E0E0E";
+    document.getElementById("headerPage").style.background = "#0E0E0E";
+    document.getElementById("footerPage").style.background = "#0E0E0E";
+    document.getElementById("voylesPuzzleTile").style.boxShadow = "0px 0px 5px 0px rgba(255,0,0,0.99)";
+    document.getElementById("brainBenders1Tile").style.boxShadow = "0px 0px 5px 0px rgba(255,0,0,0.99)";
+    document.getElementById("brainBenders2Tile").style.boxShadow = "0px 0px 5px 0px rgba(255,0,0,0.99)";
+    document.getElementById("fishermensTaleTile").style.boxShadow = "0px 0px 5px 0px rgba(22,22,196,1)";
+    document.getElementById("brainBenders3Tile").style.boxShadow = "0px 0px 5px 0px rgba(22,22,196,1)";
+    document.getElementById("brainBenders4Tile").style.boxShadow = "0px 0px 5px 0px rgba(22,22,196,1)";
+    document.getElementById("comingSoonTile").style.boxShadow = "0px 0px 5px 0px rgba(217,122,7,1)";
+    document.getElementById("brainBenders5Tile").style.boxShadow = "0px 0px 5px 0px rgba(217,122,7,1)";
+    document.getElementById("brainBenders6Tile").style.boxShadow = "0px 0px 5px 0px rgba(217,122,7,1)";
+
+
+}
+function enableLightMode() {
+    document.getElementById("puzzlePage").style.backgroundColor = "white";
+    document.getElementById("gapSpace").style.backgroundColor = "white";
+    document.getElementById("headerPage").style.background = "linear-gradient(0deg, rgb(12, 61, 94) 0%, rgba(9,46,71,1) 50%, rgba(7,39,61,1) 100%)";
+    document.getElementById("footerPage").style.background = "#0a304a"; 
+    document.getElementById("voylesPuzzleTile").style.boxShadow = "none";
+    document.getElementById("brainBenders1Tile").style.boxShadow = "none";
+    document.getElementById("brainBenders2Tile").style.boxShadow = "none";
+    document.getElementById("fishermensTaleTile").style.boxShadow = "none";
+    document.getElementById("brainBenders3Tile").style.boxShadow = "none";
+    document.getElementById("brainBenders4Tile").style.boxShadow = "none";
+    document.getElementById("comingSoonTile").style.boxShadow = "none";
+    document.getElementById("brainBenders5Tile").style.boxShadow = "none";
+    document.getElementById("brainBenders6Tile").style.boxShadow = "none";
 }
 
 
