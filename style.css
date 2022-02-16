@@ -7,7 +7,7 @@ body {
 #headerPage {
     width:100vw; height:300px;
     background: rgb(10,52,80);
-    background: linear-gradient(0deg, rgba(10,52,80,1) 0%, rgba(9,46,71,1) 50%, rgba(7,39,61,1) 100%);
+    background: linear-gradient(0deg, rgb(12, 61, 94) 0%, rgba(9,46,71,1) 50%, rgba(7,39,61,1) 100%);
     display:flex;
     margin:0; padding:0;
     flex-direction: column;
@@ -168,8 +168,8 @@ body {
 #brainBenders2UI {right:180px;border:3px solid rgb(53, 228, 228);}
 #brainBenders3UI {border:3px solid rgb(243, 213, 42);}
 #brainBenders4UI {right:180px;border:3px solid rgb(243, 213, 42);}
-#brainBenders5UI {border:3px solid rgb(206, 28, 182);}
-#brainBenders6UI {right:180px;border:3px solid rgb(206, 28, 182);}
+#brainBenders5UI {border:3px solid rgb(241, 121, 23);}
+#brainBenders6UI {right:180px;border:3px solid rgb(241, 121, 23);}
 
 .brainBenderImages {
     width:98px; height:98px;
