@@ -300,8 +300,9 @@ function enableDarkMode() {
     document.getElementById("comingSoonTile").style.boxShadow = "0px 0px 5px 0px rgba(217,122,7,1)";
     document.getElementById("brainBenders5Tile").style.boxShadow = "0px 0px 5px 0px rgba(217,122,7,1)";
     document.getElementById("brainBenders6Tile").style.boxShadow = "0px 0px 5px 0px rgba(217,122,7,1)";
-
-
+    document.getElementById("comingSoonTile2").style.boxShadow = "0px 0px 5px 0px teal";
+    document.getElementById("brainBenders7Tile").style.boxShadow = "0px 0px 5px 0px teal";
+    document.getElementById("brainBenders8Tile").style.boxShadow = "0px 0px 5px 0px teal";
 }
 function enableLightMode() {
     document.getElementById("darkModeSelector").style.display = "flex";
