@@ -283,10 +283,10 @@ function enableDarkMode() {
     document.getElementById("darkModeButtonOff").style.display = "none";
     document.getElementById("darkModeButtonOn").style.display = "flex";
     document.getElementById("lightModeSelector").style.display = "flex";
-    document.getElementById("puzzlePage").style.background = "#0E0E0E";
-    document.getElementById("gapSpace").style.backgroundColor = "#0E0E0E";
-    document.getElementById("headerPage").style.background = "#0E0E0E";
-    document.getElementById("footerPage").style.background = "#0E0E0E";
+    document.getElementById("puzzlePage").style.background = "#191919";
+    document.getElementById("gapSpace").style.backgroundColor = "#191919";
+    document.getElementById("headerPage").style.background = "#191919";
+    document.getElementById("footerPage").style.background = "#191919";
     document.getElementById("voylesPuzzleTile").style.boxShadow = "0px 0px 5px 0px rgba(255,0,0,0.99)";
     document.getElementById("brainBenders1Tile").style.boxShadow = "0px 0px 5px 0px rgba(255,0,0,0.99)";
     document.getElementById("brainBenders2Tile").style.boxShadow = "0px 0px 5px 0px rgba(255,0,0,0.99)";
@@ -304,8 +304,7 @@ function enableLightMode() {
     document.getElementById("darkModeButtonOff").style.display = "flex";
     document.getElementById("darkModeButtonOn").style.display = "none";
     document.getElementById("lightModeSelector").style.display = "none";
-    document.getElementById("puzzlePage").style.backgroundColor = "white";
-    document.getElementById("gapSpace").style.backgroundColor = "white";
+    document.getElementById("puzzlePage").style.backgroundColor = "white";    document.getElementById("gapSpace").style.backgroundColor = "white";
     document.getElementById("headerPage").style.background = "linear-gradient(0deg, rgb(12, 61, 94) 0%, rgba(9,46,71,1) 50%, rgba(7,39,61,1) 100%)";
     document.getElementById("footerPage").style.background = "#0a304a"; 
     document.getElementById("voylesPuzzleTile").style.boxShadow = "none";
