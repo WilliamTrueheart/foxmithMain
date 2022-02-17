@@ -89,7 +89,7 @@ body {
     gap:28px;
 }
 
-#puzzleWrapper2, #puzzleWrapper3,#puzzleWrapper1 {
+#puzzleWrapper1, #puzzleWrapper2, #puzzleWrapper3, #puzzleWrapper4 {
     width:350px;height:340px;
     display: flex;
     position: relative;
@@ -99,7 +99,7 @@ body {
     gap:10px;
 }
 
-#voylesPuzzleTile, #fishermensTaleTile, #comingSoonTile {
+#voylesPuzzleTile, #fishermensTaleTile, #comingSoonTile,#comingSoonTile2 {
     width:350px; height:170px;
     background-image: url("comingSoon.PNG");
     background-size: cover;
@@ -110,6 +110,7 @@ body {
 #voylesPuzzleTile {background-image: url("voylesPuzzle.PNG");}
 #fishermensTaleTile {background-image: url("fishermensTale.PNG");}
 #comingSoonTile {background-image:url("comingSoon2.PNG")}
+#comingSoonTile2 {background-image:url("comingSoon3.PNG")}
 
 .brainBenderTile {
     width:170px; height:170px;
@@ -135,6 +136,12 @@ body {
 }
 #brainBenders6Tile {
     background-image: url("brainBenders6.PNG");
+}
+#brainBenders7Tile {
+    background-image: url("brainBenders7.PNG");
+}
+#brainBenders8Tile {
+    background-image: url("brainBenders8.PNG");
 }
 
 .voylesPuzzleImages {
@@ -185,8 +192,8 @@ body {
     border-radius: 12px;
 }
 
-#brainBenders1UI {border:3px solid rgb(53, 228, 228);}
-#brainBenders2UI {right:180px;border:3px solid rgb(53, 228, 228);}
+#brainBenders1UI {border:3px solid rgb(209, 33, 33);}
+#brainBenders2UI {right:180px;border:3px solid rgb(209, 33, 33);}
 #brainBenders3UI {border:3px solid rgb(24, 120, 184);}
 #brainBenders4UI {right:180px;border:3px solid rgb(24, 120, 184);}
 #brainBenders5UI {border:3px solid rgb(241, 121, 23);}

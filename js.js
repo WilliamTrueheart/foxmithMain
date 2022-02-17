@@ -284,10 +284,13 @@ function enableDarkMode() {
     document.getElementById("darkModeButtonOn").style.display = "flex";
     document.getElementById("lightModeSelector").style.display = "flex";
     document.getElementById("headerPage").style.backgroundImage = "url('nightSky.jpg')";
-    document.getElementById("headerPage").style.backgroundSize = "contain";
+    document.getElementById("headerPage").style.backgroundSize = "fill";
     document.getElementById("gapSpace").style.backgroundImage = "url('nightSky.jpg')";
+    document.getElementById("gapSpace").style.backgroundSize = "fill";
     document.getElementById("puzzlePage").style.backgroundImage = "url('nightSky.jpg')";
+    document.getElementById("puzzlePage").style.backgroundSize = "fill";
     document.getElementById("footerPage").style.backgroundImage = "url('nightSky.jpg')";
+    document.getElementById("footerPage").style.backgroundSize = "fill";
     document.getElementById("voylesPuzzleTile").style.boxShadow = "0px 0px 5px 0px rgba(255,0,0,0.99)";
     document.getElementById("brainBenders1Tile").style.boxShadow = "0px 0px 5px 0px rgba(255,0,0,0.99)";
     document.getElementById("brainBenders2Tile").style.boxShadow = "0px 0px 5px 0px rgba(255,0,0,0.99)";
@@ -308,10 +311,10 @@ function enableLightMode() {
     document.getElementById("puzzlePage").style.backgroundColor = "white"; 
     document.getElementById("puzzlePage").style.backgroundImage = "none";   
     document.getElementById("gapSpace").style.backgroundImage = "none";   
-    document.getElementById("footerPage").style.backgroundImage = "none";   
     document.getElementById("gapSpace").style.backgroundColor = "white";
-    document.getElementById("headerPage").style.background = "linear-gradient(0deg, rgb(12, 61, 94) 0%, rgba(9,46,71,1) 50%, rgba(7,39,61,1) 100%)";
+    document.getElementById("footerPage").style.backgroundImage = "none";   
     document.getElementById("footerPage").style.background = "#0a304a"; 
+    document.getElementById("headerPage").style.background = "linear-gradient(0deg, rgb(12, 61, 94) 0%, rgba(9,46,71,1) 50%, rgba(7,39,61,1) 100%)";
     document.getElementById("voylesPuzzleTile").style.boxShadow = "none";
     document.getElementById("brainBenders1Tile").style.boxShadow = "none";
     document.getElementById("brainBenders2Tile").style.boxShadow = "none";
